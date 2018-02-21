@@ -1,0 +1,26 @@
+{
+    "name": "incoding/template",
+    "description": "Template adminLTE 2.4.3 to Laravel 5.6",
+    "homepage": "https://www.youtube.com/channel/UCj7jyTGtkwQypTyujhdQNGA",
+    "authors": [
+        {
+            "name": "webmaster",
+            "email": "jorge.larumbe.torres@gmail.com",
+            "homepage": "http://videoincoding.esy.es/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "Incoding\\Template\\": "vendor/incoding/template/src/"
+    }
+  },
+  "extra": {
+        "laravel": {
+            "providers": [
+                "Incoding\\Template\\TemplateServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}

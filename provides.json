@@ -1,0 +1,5 @@
+{
+  "providers": [
+    "Incoding\\Template\\TemplateServiceProvider"
+  ]
+}
